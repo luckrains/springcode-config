@@ -1,0 +1,14 @@
+spring:
+	profiles:
+		active:
+			- dev
+---			
+spring:
+	profiles: dev
+	application:
+		name: springcode-config-dev
+---		
+spring:
+	profiles: prd
+	application:
+		name: springcode-config-prd
