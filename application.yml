@@ -1,15 +1,15 @@
 #配置文件需要保存为utf8格式
 spring:
-	profiles:
-		active:
-			- dev
----			
+  profiles:
+    active:
+      - dev
+---
 spring:
-	profiles: dev
-	application:
-		name: springcode-config-dev
----		
+  profiles: dev
+  application:
+    name: springcode-config-dev
+---
 spring:
-	profiles: prd
-	application:
-		name: springcode-config-prd
+  profiles: prd
+  application:
+    name: springcode-config-prd
