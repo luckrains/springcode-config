@@ -1,4 +1,4 @@
-﻿#配置文件需要保存为utf8格式
+#配置文件需要保存为utf8格式
 spring:
 	profiles:
 		active:
